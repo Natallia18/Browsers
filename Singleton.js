@@ -11,16 +11,3 @@ function Singletone() {
     this.driver = newDriver()
 }
 var driver = new Singletone();
-
-
-
-
-
-
-
-
-
-
-
-
-
