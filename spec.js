@@ -10,5 +10,3 @@
         expect(element(by.id('orb-search-q')).isEnabled()).toBeTruthy();
     })
     });
-
-
