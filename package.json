@@ -1,0 +1,19 @@
+{
+  "name": "Myproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^80.0.1",
+    "iedriver": "^3.14.1",
+    "protractor": "^5.4.3",
+    "selenium-webdriver": "^4.0.0-alpha.5",
+    "webdriver-manager": "^12.1.7"
+  },
+  "devDependencies": {},
+  "description": ""
+}
