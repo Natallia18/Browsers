@@ -5,11 +5,12 @@ onPrepare: function() {
 browser.waitForAngularEnabled(false)
 },
 multiCapabilities: [
- {
-'browserName': 'internet explorer',
-'platform': 'ANY',
-'version': '11'
- }, {
+//  {
+// 'browserName': 'internet explorer',
+// 'platform': 'ANY',
+// 'version': '11'
+//  }
+{
 'browserName': 'firefox'
 }, {
 'browserName': 'chrome'
