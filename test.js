@@ -6,7 +6,6 @@ describe('Protractor Demo App', function () {
             i++;
         }
     }
-
     async function waitForElementDisplayed(element) {
         let i = 0;
         while (i < 30 && !element.isDisplayed) {
@@ -14,7 +13,6 @@ describe('Protractor Demo App', function () {
             i++;
         }
     }
-
     it('findElements', function () {
         browser.get('https://www.bbc.com/');
         element(by.id('orb-search-q')).sendKeys("Trump");
