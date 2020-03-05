@@ -5,11 +5,7 @@ exports.config = {
         browser.waitForAngularEnabled(false)
     },
     multiCapabilities: [
-//  {
-// 'browserName': 'internet explorer',
-// 'platform': 'ANY',
-// 'version': '11'
-//  }
+
         {
             'browserName': 'firefox'
         }, {
@@ -17,5 +13,3 @@ exports.config = {
         }],
     seleniumAddress: 'http://localhost:4444/wd/hub'
 };
-
-
