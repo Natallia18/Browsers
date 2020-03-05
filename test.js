@@ -21,6 +21,7 @@ describe('Protractor Demo App', function () {
         element(by.id('orb-search-button')).click();
         element.all(by.css('.search-results a')).get(1).click()
     });
+    
     it('elementCondition', function () {
         const searchField = element(by.id('orb-search-q'));
         waitForElementToBeEnabled(searchField)
