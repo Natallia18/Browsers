@@ -1,15 +1,11 @@
 exports.config = {
     framework: 'jasmine',
-    specs: ['spec.js'],
+    specs: ['assertions.js'],
     onPrepare: function () {
         browser.waitForAngularEnabled(false)
     },
-    multiCapabilities: [
-
-        {
-            'browserName': 'firefox'
-        }, {
+        capabilities: {
             'browserName': 'chrome'
-        }],
+        },
     seleniumAddress: 'http://localhost:4444/wd/hub'
 };
