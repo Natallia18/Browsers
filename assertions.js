@@ -26,11 +26,10 @@ describe('Protractor Demo App', function () {
 
     it('assertion', function () {
         expect([1, 2, 3]).toEqual(([1, 2, 3]));
-
     });
 
     it('assertion', function () {
         expect(['March', 'April', 'May']).toEqual((['March', 'April', 'May']));
-
-    })
+    });
 });
+
