@@ -5,7 +5,4 @@ async function waitForelementIsPresent(elem) {
       i++;
     }
 }
-module.exports = {waitForelementIsPresent}
-
-
-
+module.exports = {waitForelementIsPresent};
