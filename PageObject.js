@@ -40,3 +40,5 @@ function yandex() {
 }
 
 module.exports = new yandex();
+
+
