@@ -9,7 +9,6 @@ describe('Locations', function () {
         yandex.setLocation("Париж");
         const ParisLocation = yandex.getMore();
         expect(LondonLocation).toEqual(ParisLocation);
-
     })
 });
 
