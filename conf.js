@@ -1,11 +1,16 @@
 exports.config = {
+    directConnect: true,
     framework: 'jasmine',
-    specs: ['assertions.js'],
-    onPrepare: function () {
-        browser.waitForAngularEnabled(false)
+    jasmineNodeOpts: {
+        defaultTimeoutInterval: 240000
     },
+    specs: ['yandexPage.js'],
+    onPrepare: function () {
+        browser.waitForAngularEnabled(false);
+        browser.manage().window().maximize();
+    },
+
         capabilities: {
             'browserName': 'chrome'
         },
-    seleniumAddress: 'http://localhost:4444/wd/hub'
 };

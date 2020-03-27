@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "pretest": "webdriver-manager start",
     "test": "protractor conf.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "protractor": "^5.4.3"
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "protractor": "^5.4.2"
   },
   "devDependencies": {},
   "description": ""
