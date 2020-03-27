@@ -7,6 +7,7 @@ function yandexPage() {
     this.cityInput = element(by.css('.input__input'));
     this.cityDropdownItems = element.all(by.css('.b-autocomplete-item__reg'));
 
+
     this.openYandexPage = function () {
         browser.get('https://yandex.by/');
     };
