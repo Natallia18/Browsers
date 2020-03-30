@@ -2,7 +2,7 @@ describe('Protractor Demo App', function () {
     async function waitForElementEnabled(element) {
         let i = 0;
         while (i < 30 && !element.isEnabled) {
-            browser.sleep(1000)
+            browser.sleep(1000);
             i++;
         }
     }
@@ -10,7 +10,7 @@ describe('Protractor Demo App', function () {
     async function waitForElementDisplayed(element) {
         let i = 0;
         while (i < 30 && !element.isDisplayed) {
-            browser.sleep(1000)
+            browser.sleep(1000);
             i++;
         }
     }
