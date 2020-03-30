@@ -1,4 +1,4 @@
-let waiters = require('./expectations.js');
+let waiters = require('../expectations.js');
 
 function yandexPage() {
     this.geoLink = element(by.css('.geolink__reg'));
